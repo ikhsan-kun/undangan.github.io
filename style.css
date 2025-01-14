@@ -300,8 +300,7 @@ footer a:hover {
   border: solid 2px blue;
 }
 #hero{
-  width: 40vw; 
-  height:40vh;  
+  width: 40vw;   
   border-radius: 100%; 
   aspect-ratio: 3/3;
 }

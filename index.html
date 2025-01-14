@@ -140,6 +140,12 @@
                 seconds: { singular: 'detik', plural: 'detik' }
             },
         });
+    const audio = document.getElementById('autoAudio');
+    // Aktifkan suara setelah 2 detik
+    setTimeout(() => {
+        audio.muted = false;
+    }, 2000);
+
     </script>
   </body>
 </html>
